@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+    
+    header{
+        width: auto;
+        height: auto;
+    }
+    header h1{
+        float: none;
+        text-align: center;
+        margin: 10px;
+        
+    }
+    header ul{
+        float: none;
+        text-align: center;
+        margin: 5px;
+    }
+    ::selection{
+        position: static;
+    }
+
+    header ul li{
+        display: block;
+        padding: 8px;
+    }
+    .lado-esquerdo{
+        float: none;
+        margin: auto;
+        position: static;
+    }
+    .lado-esquerdo h2{
+        font-size: 1.5rem;
+    }
+    .img1{
+        float: none;
+        text-align: center;
+        width: auto;
+        margin: auto;
+    }
+    .img1 img{
+        width: 300px;
+    }
+
+
+}
