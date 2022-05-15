@@ -1,13 +1,14 @@
 *{
     margin: 0%;
     padding: 0%;
-    
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 
 }
 #conteudo{
     width: 100%;
-    margin: auto;
+    
+    
     
 }
 header{
@@ -39,7 +40,6 @@ header ul li{
     display: inline-block;
     margin: 10px;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -50,9 +50,7 @@ header ul a{
     
 }
 header ul li:hover{
-    background-color: white;
-    color:blueviolet;
-    border-radius: 20px;
+    border-bottom: 2px solid blueviolet;
     padding: 7px;
     margin: 0%;
     transition: 2ms;
@@ -61,13 +59,13 @@ header ul li:hover{
 
 section{
     position: relative;
-    background-color: blueviolet;
+    background-color:blueviolet;
     width: 100%;
     height: 70vh;
     
 }
 .lado-esquerdo{
-    position: absolute;
+    position: relative;
     float: left;
     width: 50%;
     height: auto;
@@ -82,19 +80,115 @@ section{
 }
 
 .img1{
-    float: right;
+    position: absolute;
+    margin-left: 700px;
+    
 }
 main{
-    background-color: black;
+    color: white;
+    background-color:black;
+    position: relative;
+    width: 100%;
+    height:400px;
+    
 }
+main ul{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+ 
+
 main ul li{
+    cursor: pointer;
     display: inline-block;
+    text-align: center;
+    background-color:black;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 8px;
+    
+    
+
+}
+main ul li:hover{
+    background-color: white;
 }
 main img{
     margin-top: 10px;
     width:80px;
+    margin-left: auto;
 
 }
+#texto p{
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 1.6rem;
+    margin-left: 100px;
+}
+.sobre-mim{
+    font-size: 1.4rem;
+width: 100%;
+position: relative;
+}
+.caixa{
+    position: relative;
+    width: 80%;
+}
+.sobre-mim img{
+    height: 400px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.sbm-texto{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+.sbm-texto p{
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+
+.projetos{
+    background-color: black;
+     
+    color: white;
+}
+ .titulo {
+     font-size: 1.6rem;
+     display: inline-block;
+     margin:15px 600px;
+
+     
+     
+ }
+ .end{
+     background-color:blueviolet;
+     color: white;
+     text-align: center;
+ }
+ .end ul{
+     display: inline-block;
+ }
+ .imagens-final ul li{
+    display: inline-block;
+    margin-top: 10px;
+ }
+ .end ul li img{
+     width: 40px;
+     display: inline-block;
+     
+     
+ }
 
    
 
