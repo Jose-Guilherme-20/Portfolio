@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 736px) {
     
     header{
         width: auto;
@@ -15,30 +15,61 @@
         text-align: center;
         margin: 5px;
     }
-    ::selection{
-        position: static;
-    }
-
     header ul li{
         display: block;
         padding: 8px;
     }
+    .primeira-parte{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }    
     .lado-esquerdo{
-        float: none;
-        margin: auto;
-        position: static;
+       flex-grow: 1;
     }
     .lado-esquerdo h2{
         font-size: 1.5rem;
     }
     .img1{
-        float: none;
-        text-align: center;
-        width: auto;
-        margin: auto;
+        
+       
+        
+        
     }
     .img1 img{
-        width: 300px;
+    width: 5vw;
+       
+        
+    }
+    main{
+        position: relative;
+        height: auto;
+    }
+    main ul{
+        position: relative;
+        margin-left: 0%;
+    }
+    main ul li{
+        display: block;
+        text-align: left;
+    }
+    .caixa{
+        position: relative;
+        font-size: 1.2rem;
+    }
+    .sobre-mim{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sobre-mim img{
+        
+    
+    }
+    .sbm-texto{
+        text-align: center;
     }
 
 
