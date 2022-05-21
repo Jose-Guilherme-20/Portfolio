@@ -1,55 +1,60 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 
 }
-#conteudo{
+
+#conteudo {
     width: 100%;
-    
-    
-    
-}
-header{
-    width: 100%;
-    height: 70px;
-    padding: 10px;
-    background-color: black;
-    color:white;
-   
-    
+
+
 
 }
-header h1{
-    float: left;
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+
+
+}
+
+header h1 {
     margin-left: 20vw;
     border-radius: 10px;
     background-color: white;
     color: black;
     padding: 5px;
-    
+
 }
+
 header ul {
-float: right;
-list-style-type: none;
-margin-right: 10vw;
-margin-top: 2px;
+    cursor: pointer;
+    list-style-type: none;
+    margin-right: 10vw;
+    margin-top: 2px;
 }
-header ul li{
+
+header ul li {
     display: inline-block;
     margin: 10px;
     text-transform: uppercase;
     color: white;
 }
 
-header ul a{
+header ul a {
     color: white;
-
     text-decoration: none;
-    
+
 }
-header ul li:hover{
+
+header ul li:hover {
     border-bottom: 2px solid blueviolet;
     padding: 7px;
     margin: 0%;
@@ -57,62 +62,68 @@ header ul li:hover{
 }
 
 
-.primeira-parte{
+.primeira-parte {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:blueviolet;
+    background-color: blueviolet;
     width: 100%;
-    
+
 }
-.lado-esquerdo{
+
+.lado-esquerdo {
     height: auto;
     color: white;
 
 }
-.lado-esquerdo h2{
+
+.lado-esquerdo h2 {
     text-align: center;
     margin: 10;
     font-size: 2rem;
 }
 
 
-main{
+main {
     color: white;
-    background-color:black;
+    background-color: black;
     position: relative;
     width: 100%;
-    height:400px;
-    
+    height: 400px;
+
 }
-main ul{
+
+main ul {
     position: absolute;
     margin-left: 40px;
     margin-top: 20px;
-    
-}
- 
 
-main ul li{
+}
+
+
+main ul li {
     cursor: pointer;
     display: inline-block;
     text-align: center;
-    background-color:black;
+    background-color: black;
     margin: 15px;
     border-radius: 20px;
     padding: 8px;
 
 }
-main ul li:hover{
+
+main ul li:hover {
     background-color: white;
 }
-main img{
+
+main img {
     margin-top: 10px;
-    width:80px;
+    width: 80px;
     margin-left: auto;
 
 }
-#texto p{
+
+#texto p {
     color: white;
     text-align: center;
     top: 50%;
@@ -123,9 +134,10 @@ main img{
     font-size: 1.6rem;
     margin-left: 100px;
 }
-.sobre-mim{
+
+.sobre-mim {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     font-size: 1.4rem;
     width: 100%;
@@ -134,75 +146,54 @@ main img{
 
 }
 
-.imagem-sbm img{
-    
+.imagem-sbm img {
+
     flex-grow: 2;
-    
-    
+
+
 }
-.sbm-texto{
+
+.sbm-texto {
     flex-grow: 1;
     text-align: justify;
-    
+
     max-width: 500px;
 }
 
 
 
 
-.projetos{
+.projetos {
     background-color: black;
-     
+
     color: white;
 }
- .titulo {
-     font-size: 1.6rem;
-     display: inline-block;
-     margin:15px 600px;
-   
- }
- .end{
-     background-color:blueviolet;
-     color: white;
-     text-align: center;
- }
- .end ul{
-     display: inline-block;
- }
- .imagens-final ul li{
+
+.titulo {
+    font-size: 1.6rem;
+    display: inline-block;
+    margin: 15px 600px;
+
+}
+
+.end {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+
+.end ul {
+    display: inline-block;
+}
+
+.imagens-final ul li {
     display: inline-block;
     margin-top: 10px;
- }
- .end ul li img{
-     width: 40px;
-     display: inline-block;
-     
-     
- }
+}
 
-   
+.end ul li img {
+    width: 40px;
+    display: inline-block;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+}

@@ -1,23 +1,32 @@
 @media only screen and (max-width: 736px) {
-    
+    body{
+        overflow: auto;
+    }
     header{
-        width: auto;
-        height: auto;
+        flex-direction: column;
+        align-items: center;
     }
     header h1{
-        float: none;
+        width: 15%;
         text-align: center;
         margin: 10px;
         
     }
     header ul{
-        float: none;
+        display: flex;
+        flex-direction: column;
         text-align: center;
         margin: 5px;
+        
     }
     header ul li{
-        display: block;
-        padding: 8px;
+        
+        margin: 10px;
+        
+    }
+    header ul li:hover{
+        border-bottom: none;
+        
     }
     .primeira-parte{
         flex-direction: column;
@@ -51,6 +60,8 @@
         margin-left: 0%;
     }
     main ul li{
+        width: 20%;
+        background-size: auto;
         display: block;
         text-align: left;
     }
