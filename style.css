@@ -8,11 +8,10 @@
 
 #conteudo {
     width: 100%;
-
-
+    overflow: hidden;
 
 }
-
+ /* Inicio Header */
 header {
     width: 100%;
     display: flex;
@@ -20,9 +19,6 @@ header {
     background-color: black;
     color: white;
     padding: 10px;
-
-
-
 }
 
 header h1 {
@@ -31,7 +27,6 @@ header h1 {
     background-color: white;
     color: black;
     padding: 5px;
-
 }
 
 header ul {
@@ -61,7 +56,7 @@ header ul li:hover {
     transition: 2ms;
 }
 
-
+/* Inicio primeira parte */
 .primeira-parte {
     display: flex;
     justify-content: space-around;
@@ -83,7 +78,7 @@ header ul li:hover {
     font-size: 2rem;
 }
 
-
+ /* inicio parte principal */
 main {
     color: white;
     background-color: black;
@@ -134,7 +129,7 @@ main img {
     font-size: 1.6rem;
     margin-left: 100px;
 }
-
+ /* Inicio sobre mim */
 .sobre-mim {
     display: flex;
     justify-content: space-around;
@@ -156,26 +151,56 @@ main img {
 .sbm-texto {
     flex-grow: 1;
     text-align: justify;
-
     max-width: 500px;
 }
 
-
-
-
+/* Inicio projetos*/
 .projetos {
     background-color: black;
-
     color: white;
 }
 
-.titulo {
+.titulo h2 {
     font-size: 1.6rem;
     display: inline-block;
     margin: 15px 600px;
-
+}
+.conteiner-projeto{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width:250px;
+    height: 240px;
+    border: 1px solid white ;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+.card1{
+    background-color:yellow;
+    color: black;
+}
+.card1 img{
+    width: 150px;
+    background-color: yellow;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.card p{
+    margin-top: 10px;
+}
+.card1 img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    border-radius: 20px;
+    padding: 4px;
 }
 
+ /* inicio footer */
 .end {
     background-color: blueviolet;
     color: white;
@@ -195,5 +220,12 @@ main img {
     width: 40px;
     display: inline-block;
 
-
+}
+.imagens-final ul li a img{
+    transition: all 1s;
+    cursor: pointer;
+}
+.imagens-final ul li a img:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }

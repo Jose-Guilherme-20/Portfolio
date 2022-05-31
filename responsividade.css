@@ -1,6 +1,6 @@
-@media only screen and (max-width: 736px) {
+@media  (max-width: 576px) {
     body{
-        overflow: auto;
+        
     }
     header{
         flex-direction: column;
@@ -35,19 +35,20 @@
         
     }    
     .lado-esquerdo{
-       flex-grow: 1;
+        
     }
     .lado-esquerdo h2{
         font-size: 1.5rem;
+        
     }
     .img1{
         
-       
+        width: 30vw;
         
         
     }
     .img1 img{
-    width: 5vw;
+   
        
         
     }
@@ -73,15 +74,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: auto;
         
     }
     .sobre-mim img{
-        
+        width: 40vw;
     
     }
     .sbm-texto{
         text-align: center;
     }
+    main{
+        display: none;
+    }
+    .projetos{
+    
+    }
 
-
+    img{
+        width: 30vw;
+    }
 }
