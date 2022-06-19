@@ -63,7 +63,25 @@ header ul li:hover {
     align-items: center;
     background-color: blueviolet;
     width: 100%;
+    height: 100vh;
 
+}
+.butao{
+    cursor: pointer;
+    font-family: sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(14, 118, 168);
+    color: aliceblue;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
+.butao:hover{
+    background-color: rgb(125, 198, 231) ;
 }
 
 .lado-esquerdo {
@@ -80,54 +98,56 @@ header ul li:hover {
 
  /* inicio parte principal */
 main {
+    height: 100vh;
     color: white;
+    align-items: center;
     background-color: black;
-    position: relative;
+}
+main div h2{
+    text-transform: uppercase;
+    font-size: 2.4rem;
+position: absolute;
+margin-left: 44%;
+margin-top: 80px;
+    
+}
+.container-main{
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    height: 400px;
-
+    height: 100%;
 }
-
-main ul {
-    position: absolute;
-    margin-left: 40px;
-    margin-top: 20px;
-
+main ul{
+    margin: auto auto; 
 }
-
-
+ 
 main ul li {
-    cursor: pointer;
     display: inline-block;
     text-align: center;
     background-color: black;
     margin: 15px;
     border-radius: 20px;
-    padding: 8px;
-
+    
+    
+    
 }
 
-main ul li:hover {
-    background-color: white;
-}
-
-main img {
+main ul li img {
     margin-top: 10px;
-    width: 80px;
+    width: 6rem;
     margin-left: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.096);
+    padding: 15px;
 
 }
 
-#texto p {
-    color: white;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    font-size: 1.6rem;
-    margin-left: 100px;
+.texto {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    
+    
 }
  /* Inicio sobre mim */
 .sobre-mim {
@@ -156,21 +176,33 @@ main img {
 
 /* Inicio projetos*/
 .projetos {
+    height: 100vh;
     background-color: black;
     color: white;
-}
-
-.titulo h2 {
-    font-size: 1.6rem;
-    display: inline-block;
-    margin: 15px 600px;
-}
-.conteiner-projeto{
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
+    position: relative;
+    
     
 }
+
+ .projetos h2 {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+position: absolute;
+margin-left: 44%;
+margin-top: 80px;
+    
+    
+}
+.conteiner-projeto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    
+}
+
 .card{
     width:250px;
     height: 240px;
@@ -178,6 +210,8 @@ main img {
     border-radius: 40px;
     padding: 10px;
     margin: 10px;
+    
+
 }
 .card1{
     background-color:yellow;
@@ -186,6 +220,17 @@ main img {
 .card1 img{
     width: 150px;
     background-color: yellow;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.card4{
+    background:url(./imagens/capa.png)rgb(141, 120, 146);
+    color: black;
+}
+.card4 img{
+    width: 150px;
+    
     transition: all 0.5s;
     cursor: pointer;
     margin-left: 30px;
@@ -228,4 +273,25 @@ main img {
 .imagens-final ul li a img:hover{
     -webkit-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
+}
+.card2, .card3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.card2 p , .card3 p {
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }

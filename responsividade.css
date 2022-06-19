@@ -1,7 +1,5 @@
 @media  (max-width: 576px) {
-    body{
-        
-    }
+    
     header{
         flex-direction: column;
         align-items: center;
@@ -85,9 +83,24 @@
         text-align: center;
     }
     main{
-        display: none;
+        
     }
     .projetos{
+        height: 160vh;
+    
+    }
+    .projetos h2{
+        display: block;
+        position: static;
+        margin-left: 0;
+         margin-top: 0;
+         text-align: center;
+         
+    }
+    
+    
+    .conteiner-projeto{
+    flex-direction: column;
     
     }
 

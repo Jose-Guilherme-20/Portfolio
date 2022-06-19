@@ -11,6 +11,7 @@
     <link rel="icon" type="icon/imagem" href="./imagens/ico.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/responsividade.css">
+    
     <title>José Guilherme</title>
 </head>
 
@@ -43,6 +44,7 @@
                 <h2>
                     Desenvolvedor Front-end.
                 </h2>
+                <button class="butao">Linkendin</button>
 
             </div> 
 
@@ -56,26 +58,34 @@
 
         <main>
             <!--Inicio conhecimentos-->
-
+                <div>
+                    <h2>
+                        habilidades
+                    </h2>
+                </div>
+                    <div class="container-main">
+            
             <ul class="imagens">
-                <li onclick="funcao()"><a href=""></a><img src="./imagens/1200px-HTML5_logo_and_wordmark.svg.png"
+                <li onclick="funcao1()" onmouseout="funcao2()"><a href=""></a><img src="./imagens/1200px-HTML5_logo_and_wordmark.svg.png"
                         alt=""></li>
-                <li><a href=""></a><img src="./imagens/css-removebg-preview.png" alt=""></li>
-                <li><a href="#"></a><img src="./imagens/js.png" alt=""></li> <br>
-                <li><a href=""></a><img src="./imagens/git-removebg-preview.png" alt=""></li>
-                <li><img src="./imagens/github.png" alt=""><a href=""></a></li>
+                <li onclick="funcao3()" onmouseout="funcao4()"><a href=""></a><img src="./imagens/css-removebg-preview.png" alt=""></li>
+                <li onclick="funcao4()"><a href="#"></a><img src="./imagens/js.png" alt=""></li> <br>
+                <li onclick="funcao5()" ><a href=""></a><img src="./imagens/git-removebg-preview.png" alt=""></li>
+                <li onclick="funcao6()"><a href=""></a><img src="./imagens/GitHub-Mark-removebg-preview.png" alt=""></li>
+                <li onclick="funcao7()"><a href=""></a><img src="./imagens/bootstrap-removebg-preview.png" alt=""></li>
             </ul>
-
-            <div id="texto">
-                <p id="paragrafo">
-                    //Clique em alguma tecnologia //
+        
+            <div class="texto">
+                <p class="texto-descricao">
+                    /* Passe o mouse por cima de alguma habilidade para ler a descrição */
                 </p>
             </div>
+        </div>
 
         </main>
         <!--fim conhecimento-->
 
-        <section class="sobre-mim">
+        <section class="sobre-mim ">
 
             <div class="imagem-sbm">
                 <img src="./imagens/imagem-sbm-removebg-preview.png" alt="">
@@ -104,27 +114,26 @@
                 <h2>
                     projetos
                 </h2>
-                <div class="conteiner-projeto">
+            </div>
+                    <div class="conteiner-projeto">
                     <div class="card card1">
                         <a href=""><img src="./imagens/logo.png" alt=""></a>
                         <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem
                             Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500,</p>
                     </div>
-                    <div class="card"><a href=""><img src="" alt=""></a>
-                        <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem
-                            Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500,</p>
+                    <div class="card card2"><a href=""><img src="" alt=""></a>
+                        <p>EM BREVE</p>
                     </div>
-                    <div class="card"><a href=""><img src="" alt=""></a>
-                        <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem
-                            Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500,</p>
+                    <div class="card card3"><a href=""><img src="" alt=""></a>
+                        <p>EM BREVE</p>
                     </div>
-                    <div class="card">
-                        <a href=""><img src="" alt=""></a>
+                    <div class="card card4">
+                        <a href=""><img src="./imagens/spotify.svg" alt=""></a>
                         <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem
                             Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500,</p>
                     </div>
                 </div>
-            </div>
+                
         </section>
         <!--fim projetos-->
 
@@ -150,7 +159,9 @@
 
 
     </div>
-    <script src="/script.js"></script>
+    <script src="./script.js"></script>
+
+    
 </body>
 
 </html>
