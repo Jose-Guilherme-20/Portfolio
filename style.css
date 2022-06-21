@@ -156,20 +156,20 @@ main ul li img {
     align-items: center;
     font-size: 1.4rem;
     width: 100%;
+    height: 100vh;
     background-color: blueviolet;
     color: white;
 
 }
 
 .imagem-sbm img {
-
-    flex-grow: 2;
-
+ width: 35vw;
+ margin-top: 8rem;
 
 }
 
 .sbm-texto {
-    flex-grow: 1;
+    
     text-align: justify;
     max-width: 500px;
 }

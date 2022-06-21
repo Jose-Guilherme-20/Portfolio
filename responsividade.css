@@ -28,8 +28,9 @@
     }
     .primeira-parte{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 70vh;
+        
+       
         
     }    
     .lado-esquerdo{
@@ -39,9 +40,9 @@
         font-size: 1.5rem;
         
     }
-    .img1{
+    .img1 img{
         
-        width: 30vw;
+        width: 80vw;
         
         
     }
@@ -70,23 +71,27 @@
     }
     .sobre-mim{
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        height: auto;
+        font-size: 1.2rem;
+        height: 60vh;
+        
+        
         
     }
     .sobre-mim img{
-        width: 40vw;
+        width: 50vw;
+        margin: 0%;
+        font-size: 1.1rem;
+        
     
     }
     .sbm-texto{
         text-align: center;
-    }
-    main{
         
     }
+   
     .projetos{
-        height: 160vh;
+        height: auto;
     
     }
     .projetos h2{
@@ -98,13 +103,12 @@
          
     }
     
-    
     .conteiner-projeto{
     flex-direction: column;
     
     }
+    
 
-    img{
-        width: 30vw;
-    }
+  
+    
 }
