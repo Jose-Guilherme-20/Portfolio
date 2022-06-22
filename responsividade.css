@@ -1,13 +1,22 @@
 @media  (max-width: 576px) {
     
     header{
-        flex-direction: column;
-        align-items: center;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: auto;
+        height: auto;
+        
+        
     }
     header h1{
-        width: 15%;
+        
+        width: 60px;
+        height: 50px;
         text-align: center;
         margin: 10px;
+        margin-left: 10px;
         
     }
     header ul{
@@ -15,11 +24,42 @@
         flex-direction: column;
         text-align: center;
         margin: 5px;
+        display: none;
         
     }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin:10px 15px 0px 0px;
+    }
+    ul{
+        margin-right: 170px;
+    }
+    
+    .mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.mobile-menu {
+    margin-right: 10px;
+
+}
+.open{
+    display: block;
+}
+
     header ul li{
         
-        margin: 10px;
+        margin: 15px;
+        padding: 10px;
+     
         
     }
     header ul li:hover{
@@ -28,43 +68,51 @@
     }
     .primeira-parte{
         flex-direction: column;
-        height: 70vh;
-        
-       
-        
+        height: 70vh; 
     }    
-    .lado-esquerdo{
-        
-    }
+
     .lado-esquerdo h2{
         font-size: 1.5rem;
         
     }
     .img1 img{
-        
         width: 80vw;
-        
-        
+
     }
-    .img1 img{
-   
-       
-        
-    }
-    main{
-        position: relative;
+    .habilidades{
         height: auto;
     }
-    main ul{
-        position: relative;
-        margin-left: 0%;
+    
+    .habilidades-parte2{
+        height: auto;
     }
-    main ul li{
-        width: 20%;
-        background-size: auto;
+    .habilidades-img{
+        
+    }
+    .habilidades-img ul{
+       margin-left: 80px;
+        
+        
+    }
+    .habilidades-img ul li{
         display: block;
-        text-align: left;
+        width: 15vw;
+        
+        
+        
+        
     }
+    .habilidades-img ul li img{
+        margin-left: -7px;
+        
+    }
+   
+        
+   
+    
+
+
+
     .caixa{
         position: relative;
         font-size: 1.2rem;
@@ -75,19 +123,15 @@
         font-size: 1.2rem;
         height: 60vh;
         
-        
-        
     }
     .sobre-mim img{
         width: 50vw;
         margin: 0%;
         font-size: 1.1rem;
         
-    
     }
     .sbm-texto{
         text-align: center;
-        
     }
    
     .projetos{
@@ -108,6 +152,9 @@
     
     }
     
+        
+    
+
 
   
     
