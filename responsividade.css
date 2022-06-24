@@ -29,8 +29,8 @@
     
 }
 .mobile-menu ul li{
-    
     margin: 15px;
+    list-style-type: none;
 }
 .mobile-menu ul li:hover{
     
