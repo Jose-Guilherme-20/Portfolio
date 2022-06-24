@@ -17,13 +17,27 @@ var texto = [
 function funcao(){
     var text = document.getElementById("texto");
     text.innerHTML = habilidade[0]
-    text.addEventListener('mouseout', onm)
+    
+    
+
+}
+function onm (){
+    var text = document.getElementById("texto");
+    text.innerHTML = texto[0]
 }
 
-    function onm (){
+   
+
+    function funcao1(){
         var text = document.getElementById("texto");
-        text.innerHTML = texto[0]
+        text.innerHTML = habilidade[1]
+        
     }
+    
+        function onm1 (){
+            var text = document.getElementById("texto");
+            text.innerHTML = texto[0]
+        }
 
 
 
