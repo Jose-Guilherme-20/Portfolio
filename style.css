@@ -84,6 +84,10 @@ header{
     font-size: 1.4rem;
     border-radius: 10px;
 }
+.butao a {
+    text-decoration: none;
+    color: white;
+}
 
 .butao:hover {
     background-color: rgb(125, 198, 231);
@@ -261,6 +265,12 @@ header{
 }
 
 .card1 img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    border-radius: 20px;
+    padding: 4px;
+}
+.card4 img:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
     border-radius: 20px;

@@ -62,7 +62,7 @@
 
     }
     .habilidades{
-        border: 1px solid;
+        
         height: auto;
     }
     
@@ -121,10 +121,16 @@
     
     }
     
+}
+@media  (max-width: 769px){
+    .conteiner-projeto{
+        flex-wrap: wrap;
         
-    
-
-
-  
-    
+    }
+    .sobre-mim{
+        flex-direction: column;
+    }
+    .primeira-parte{
+        flex-direction: column;
+    }
 }
