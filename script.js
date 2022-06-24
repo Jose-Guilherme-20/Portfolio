@@ -46,7 +46,7 @@ function menuShow(){
     } else{
             menuMobile.classList.add('open');
             document.querySelector('.icon').src = "./img responsividade/close_white_36dp.svg";
-            tam.style.height = '100vh'
+            tam.style.height = 'auto'
         }
 
 }
