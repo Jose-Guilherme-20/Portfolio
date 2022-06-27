@@ -4,9 +4,8 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
-body{
-    
-}
+
+
 #conteudo {
     width: 100%;
     overflow: hidden;
@@ -14,17 +13,19 @@ body{
 }
 
 /* Inicio Header */
-header{
+header {
     background-color: black;
     color: white;
 }
-.menu-titulo h1{
+
+.menu-titulo h1 {
     background-color: white;
     color: black;
     border-radius: 10px;
     padding: 5px;
 }
-.menu{
+
+.menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,20 +34,24 @@ header{
     width: 100%;
     height: 4rem;
 }
-.menu-nav{
-    
-    
+
+.menu-nav {
+
+
     font-size: 1.2rem;
     text-transform: uppercase;
 }
-.menu-nav ul{
+
+.menu-nav ul {
     display: flex;
 }
-.menu-nav ul li{
+
+.menu-nav ul li {
     list-style-type: none;
     margin: 14px;
 }
-.menu-nav ul li:hover{
+
+.menu-nav ul li:hover {
     border-bottom: 2px solid blueviolet;
     transition: 3ms;
 }
@@ -84,6 +89,7 @@ header{
     font-size: 1.4rem;
     border-radius: 10px;
 }
+
 .butao a {
     text-decoration: none;
     color: white;
@@ -107,7 +113,7 @@ header{
 
 /* inicio parte principal */
 .habilidades {
-    
+
     width: 100%;
     height: auto;
     background-color: black;
@@ -116,7 +122,7 @@ header{
 
 .habilidades-titulo {
     width: 100%;
-    
+
     text-align: center;
 }
 
@@ -126,9 +132,10 @@ header{
     align-items: center;
     width: 100%;
     height: 100vh;
-    
+
 }
-.habilidades-img{
+
+.habilidades-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,31 +145,33 @@ header{
 
 }
 
-.habilidades ul li{
+.habilidades ul li {
     display: inline-block;
     list-style-type: none;
     background-color: white;
     margin: 10px;
     border-radius: 7px;
     padding: 10px;
-    
+
 }
-.habilidades-titulo h2{
+
+.habilidades-titulo h2 {
     font-size: 2.4rem;
 }
 
 .habilidades-img ul li img {
     width: 60px;
-   
+
 }
-.habilidades-texto  {
+
+.habilidades-texto {
     font-size: 1.4rem;
     display: flex;
     align-items: center;
     width: 50%;
     height: 80%;
-    
-    
+
+
 }
 
 
@@ -270,6 +279,7 @@ header{
     border-radius: 20px;
     padding: 4px;
 }
+
 .card4 img:hover {
     -webkit-transform: scale(1.5);
     transform: scale(1.5);

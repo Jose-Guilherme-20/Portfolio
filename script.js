@@ -38,6 +38,49 @@ function onm (){
             var text = document.getElementById("texto");
             text.innerHTML = texto[0]
         }
+        function funcao2(){
+            var text = document.getElementById("texto");
+            text.innerHTML = habilidade[2]
+            
+        }
+        
+            function onm2 (){
+                var text = document.getElementById("texto");
+                text.innerHTML = texto[0]
+            }
+
+            function funcao3(){
+                var text = document.getElementById("texto");
+                text.innerHTML = habilidade[3]
+                
+            }
+            
+                function onm3 (){
+                    var text = document.getElementById("texto");
+                    text.innerHTML = texto[0]
+                }
+
+                function funcao4(){
+                    var text = document.getElementById("texto");
+                    text.innerHTML = habilidade[4]
+                    
+                }
+                
+                    function onm4 (){
+                        var text = document.getElementById("texto");
+                        text.innerHTML = texto[0]
+                    }
+
+                    function funcao5(){
+                        var text = document.getElementById("texto");
+                        text.innerHTML = habilidade[5]
+                        
+                    }
+                    
+                        function onm5 (){
+                            var text = document.getElementById("texto");
+                            text.innerHTML = texto[0]
+                        }
 
 
 
