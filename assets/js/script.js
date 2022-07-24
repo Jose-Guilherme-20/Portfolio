@@ -1,8 +1,4 @@
-
-
-    
-
-var habilidade = [
+/* var habilidade = [
 
 '<p>HTML</p> <br> <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p> <br>',
                     '<p>CSS</p> <br> <p>É um mecanismo para adicionar estilo a um documento web.</p> <br>',
@@ -12,8 +8,8 @@ var habilidade = [
                     '<p>Github</p> <br> <p>É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. </p> <br>'
 ]
 var texto = [
-    '<p> */ Clique em alguma tecnologia */</p>'
-];
+  */ // '<p> */ Clique em alguma tecnologia */</p>'
+/*];
 function funcao(){
     var text = document.getElementById("texto");
     text.innerHTML = habilidade[0]
@@ -106,7 +102,4 @@ function menuShow(){
             tam.style.height = 'auto'
         }
 
-}
-
-
-
+} */
