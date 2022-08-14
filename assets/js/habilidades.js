@@ -4,9 +4,11 @@ const sobreSkill = [
   " <p>É uma linguagem de marcação utilizada na construção de páginas na Web.</p> <br>",
   "  <p>É um mecanismo para adicionar estilo a um documento web.</p> <br>",
   " <p>É uma linguagem de programação. Juntamente com HTML e CSS, é uma das três principais tecnologias da web.</p> <br>",
+  "<p>O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU).</p>",
   "<p> O Bootstrap  é  um framework Front End utilizados por milhares de desenvolvedores web pelo mundo. </p>",
   "<p>É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.</p> <br>",
   " <p>É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. </p> <br>",
+  "<p>Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador.</p>",
 ];
 
 skills.forEach((elemento, index) => {
